@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B409F8A9-1C31-4A97-B55B-0C3B452BD1DC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>code</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\code\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\01_PlusOne.h" />
+    <ClInclude Include="include\02_ReverseBits.h" />
+    <ClInclude Include="include\03_MoveZeroes.h" />
+    <ClInclude Include="include\04_HammingWeight.h" />
+    <ClInclude Include="include\05_IsPalindrome.h" />
+    <ClInclude Include="include\06_ExcelSheetColumnTitle.h" />
+    <ClInclude Include="include\07_AddBinary.h" />
+    <ClInclude Include="include\08_IsValid.h" />
+    <ClInclude Include="include\09_MyAtoi.h" />
+    <ClInclude Include="include\10_ContainsNearbyDuplicate.h" />
+    <ClInclude Include="include\11_MySqrt.h" />
+    <ClInclude Include="include\12_SortList.h" />
+    <ClInclude Include="include\13_BinaryTreePaths.h" />
+    <ClInclude Include="include\14_LengthOfLongestSubstring.h" />
+    <ClInclude Include="include\15_SingleNumber.h" />
+    <ClInclude Include="include\16_WordBreak.h" />
+    <ClInclude Include="include\17_WordPattern.h" />
+    <ClInclude Include="include\18_FindMinFibonacciNumbers.h" />
+    <ClInclude Include="include\19_HasAllCodes.h" />
+    <ClInclude Include="include\20_RestoreIpAddress.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\01_PlusOne.cpp" />
+    <ClCompile Include="src\02_ReverseBits.cpp" />
+    <ClCompile Include="src\03_MoveZeroes.cpp" />
+    <ClCompile Include="src\04_HammingWeight.cpp" />
+    <ClCompile Include="src\05_IsPalindrome.cpp" />
+    <ClCompile Include="src\06_ExcelSheetColumnTitle.cpp" />
+    <ClCompile Include="src\07_AddBinary.cpp" />
+    <ClCompile Include="src\08_IsValid.cpp" />
+    <ClCompile Include="src\09_MyAtoi.cpp" />
+    <ClCompile Include="src\10_ContainsNearbyDuplicate.cpp" />
+    <ClCompile Include="src\11_MySqrt.cpp" />
+    <ClCompile Include="src\12_SortList.cpp" />
+    <ClCompile Include="src\13_BinaryTreePaths.cpp" />
+    <ClCompile Include="src\14_LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="src\15_SingleNumber.cpp" />
+    <ClCompile Include="src\16_WordBreak.cpp" />
+    <ClCompile Include="src\17_WordPattern.cpp" />
+    <ClCompile Include="src\18_FindMinFibonacciNumbers.cpp" />
+    <ClCompile Include="src\19_HasAllCodes.cpp" />
+    <ClCompile Include="src\20_RestoreIpAddress.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

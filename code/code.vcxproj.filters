@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\01_PlusOne.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\02_ReverseBits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\03_MoveZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\04_HammingWeight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\05_IsPalindrome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\06_ExcelSheetColumnTitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\07_AddBinary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\08_IsValid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\09_MyAtoi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\10_ContainsNearbyDuplicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\11_MySqrt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\12_SortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\13_BinaryTreePaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\14_LengthOfLongestSubstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\15_SingleNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\16_WordBreak.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\17_WordPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\18_FindMinFibonacciNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\19_HasAllCodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\20_RestoreIpAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\01_PlusOne.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\02_ReverseBits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\03_MoveZeroes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\04_HammingWeight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\05_IsPalindrome.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\06_ExcelSheetColumnTitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\07_AddBinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\08_IsValid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\09_MyAtoi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\10_ContainsNearbyDuplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\11_MySqrt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\12_SortList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\13_BinaryTreePaths.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\14_LengthOfLongestSubstring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\15_SingleNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\16_WordBreak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\17_WordPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\18_FindMinFibonacciNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\19_HasAllCodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\20_RestoreIpAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
